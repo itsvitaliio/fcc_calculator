@@ -1,0 +1,19 @@
+/* wrapping container */
+.App {
+    /* display the components in a grid of 1 column and 2 rows */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    max-width: 350px;
+    /* keeping the ratio of a normal phone, set the height in relation to the width property */
+    height: 144vw;
+    max-height: 560px;
+    /* include padding for the phone's application */
+    padding: 1.5% 2.5% 2.5%;
+    /* include rounded corners and a notable shadow beneath the UI */
+    box-shadow: 0 0 1vw 0 darkslategray;
+    border-radius: 6vw;
+    /* position relative to include a couple of visuals to remind of a phone outline */
+    position: relative;
+  }

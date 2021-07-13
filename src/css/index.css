@@ -1,0 +1,31 @@
+/* include the font and colors chosen for the project */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono");
+
+:root {
+  --font: "Open Sans", sans-serif;
+  --clr-theme: hsl(275, 95%, 49%);
+  --clr-theme-drk: hsl(275, 95%, 35%);
+  --clr-theme-lgh: hsl(275, 95%, 54%);
+  --clr-phone: hsl(0, 0%, 100%);
+  --clr-text: hsl(0, 0%, 30%);
+  --clr-text-lgh: hsl(0, 0%, 50%);
+  --clr-text-bg: hsl(0, 0%, 95%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  /* include the chosen variables for the color of text, background and the font family */
+  color: var(--clr-text);
+  font-family: var(--font);
+  /* center the content horizontally  */
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem 0;
+}
